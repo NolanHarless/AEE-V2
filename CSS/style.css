@@ -1,0 +1,131 @@
+body{
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.logo-img{
+    width: 70%;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+.navbar-nav li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 150px;
+    text-align: center;
+}
+.navbar-nav li:hover{
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+.hero-art{
+    position: relative;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.hero-art img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position:30% 50%;
+}
+.carousel-caption {
+    width: 75%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.golden-font{
+    color: #D6A022;
+}
+.hero-button{
+    color: #fff;
+    background-color: #D6A022;
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+.hero-button:hover{
+    background-color: #f0c45d;
+}
+.learn-more-btn{
+    background-color: #1D318F;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: 0px solid #000;
+}
+.learn-more-btn:hover{
+    background-color: #D6A022;
+}
+.body-crescent-img{
+    display: block;
+    margin: 0 auto;
+}
+.bulletin-logo{
+    width: 15%;
+}
+.body-headers h3{
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #1D318F;
+}
+.footer-style{
+    border-top: 10px solid #D6A022;
+    background-color:#1D318F;
+    color: #fff;
+
+}
+.footer-style img{
+    width: 10%;
+}
+.footer-style ul{
+    font-size: 1.5em;
+    list-style-type: none;
+}
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) { 
+    body { 
+        background-color: red; 
+    } 
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+    body { 
+        background-color: yellow; 
+    } 
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+    body { 
+        background-color: blue; 
+    } 
+    .footer-style p{
+        width: 75%;
+    }
+    .body-crescent-img{
+        width: 75%;
+    }
+    .container{
+        margin: 100px, 100px;
+    }
+} 
+  
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px){ 
+    body { 
+        background-color: green; 
+    } 
+} 
+  
+/* Media Query for Large screens */ 
+@media (min-width: 1281px) { 
+    body { 
+        background-color: white; 
+    } 
+} 
