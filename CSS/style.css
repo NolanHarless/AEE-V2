@@ -86,11 +86,51 @@ body{
     font-size: 1.5em;
     list-style-type: none;
 }
+.mobile-img{
+    display: none;
+}
 /* Media Query for Mobile Devices */ 
 @media (max-width: 480px) { 
     body { 
-        background-color: red; 
     } 
+    .nav-link{
+        padding: 0px;
+        text-align: left;
+    }
+    .logo-img{
+        display: block;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .carousel-caption{
+        font-size: .75em;
+        left: 50%;
+        top: 40%;
+    }
+    .hero-art img{
+        object-position: 50% 0%;
+        height: 350px;
+        width: 100%;
+    }
+    .body-crescent-img{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .col-md h3{
+        margin-top: 10%;
+    }
+    .mobile-img{
+        display: block;
+    }
+    .desktop-img{
+        display: none;
+    }
+    .body-headers h3{
+        font-size: 1.25em;
+    }
+    .bulletin-logo{
+        display: none;
+    }
 } 
   
 /* Media Query for low resolution  Tablets, Ipads */ 
@@ -98,6 +138,13 @@ body{
     body { 
         background-color: yellow; 
     } 
+    .nav-link{
+        padding: 0px;
+        text-align: left;
+    }
+    .col-md h3{
+        margin-top: 10%;
+    }
 } 
   
 /* Media Query for Tablets Ipads portrait mode */ 
@@ -113,6 +160,14 @@ body{
     }
     .container{
         margin: 100px, 100px;
+    }
+    .logo-img{
+        display: block;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .nav-link{
+        text-align: left;
     }
 } 
   
